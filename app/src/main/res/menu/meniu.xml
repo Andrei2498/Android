@@ -17,4 +17,8 @@
         android:title="Settings"
         android:id="@+id/settings"
         />
+    <item
+        android:title="Sensor"
+        android:id="@+id/sensors"
+        />
 </menu>

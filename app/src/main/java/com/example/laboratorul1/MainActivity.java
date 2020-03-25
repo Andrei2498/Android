@@ -125,6 +125,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.settings:
                 openSettingsMenu();
                 return true;
+            case R.id.sensors:
+                openSensorsMenu();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -141,6 +144,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openSettingsMenu(){
         Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSensorsMenu(){
+        Intent intent = new Intent(this, SensorActivity.class);
         startActivity(intent);
     }
 
