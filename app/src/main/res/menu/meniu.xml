@@ -21,4 +21,8 @@
         android:title="Sensor"
         android:id="@+id/sensors"
         />
+    <item
+        android:title="Camera"
+        android:id="@+id/camera"
+        />
 </menu>
